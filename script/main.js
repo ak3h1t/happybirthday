@@ -264,9 +264,9 @@ const animationTimeline = () => {
         "+=1"
     );
 
-    // Restart Animation on click
+    // Redirect to Spotify on click
     const replyBtn = document.getElementById("replay");
     replyBtn.addEventListener("click", () => {
-        tl.restart();
+        window.location.href = "https://open.spotify.com/playlist/70nE0hhApAET0pztmEpyg6?si=0889728a0e35413c&pt=ff0e7a2c98d9e9a21f121a11ee9aa869"; // Redirects to Spotify
     });
 }
